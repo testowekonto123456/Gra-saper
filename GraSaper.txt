@@ -70,7 +70,7 @@ class Program
 
 
 
-                        if (count /*??*/ 0)
+                        if (count == 0)
 
                         {
 
@@ -126,7 +126,7 @@ class Program
 
         char[,] board = new char[height, width];
 
-        Random random = /*??*/
+        Random random = new Random();
 
 
 
